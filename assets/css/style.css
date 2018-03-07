@@ -356,6 +356,8 @@ To do (index.html)
 
     body {
         width: 100%;
+        /* position: absolute; */
+        /* position: relative; */
     }
 
 
@@ -369,11 +371,12 @@ To do (index.html)
 
     .header_bar {
         width: 100%;
-        margin: auto;
+        /* margin: auto; */
+        /* position: relative; */
     }
 
     .button_container {
-        width: 30%;
+        /* width: 30%; */
         /* float: right;    */
         /* Makes the button container stay to the right of the page w/o getting cut off */
         /**/
