@@ -347,7 +347,31 @@ To do (index.html)
 
     a. Similar behavior for < 980px
     b. " " "
-    c. Sit below photo for < 640px
+    c. " " "
+
+///////////////////////////
+
+To do (portfolio.html)
+1. Move project pictures and labels around as screen
+    size changes
+
+    a. Vertically align elements for (768 <= x <= 979)
+    b. Typical behavior for (640 <= x <= 767)
+    c. Same as (a) for (x <= 639)
+
+2. Move sidebar as screen size changes
+
+    a. Similar behavior for (768 <= x <= 979)
+    b. Same as (a) for (640 <= x <= 767)
+        i. May not be able to do this without creation and restructuring 
+            of classes. 
+            This will probably behave the same as index.html.
+    c. Sit behow main body for (x <= 639)
+
+
+
+
+
 
 */
 
@@ -530,7 +554,7 @@ To do (index.html)
 
 
 /*=====  For < 640px  =====*/
-@media handheld, screen and (max-width: 640px) {
+@media handheld, screen and (max-width: 639px) {
 
 
     body {
@@ -637,6 +661,8 @@ To do (index.html)
         position: relative;
         bottom: 0;
     } */
+
+
 
 
 
