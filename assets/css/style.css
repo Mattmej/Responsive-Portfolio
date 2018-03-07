@@ -434,9 +434,26 @@ To do (portfolio.html)
 
             }      */
 
-            .main_body {        /* "About Me" body text */
+            .main_body, .project_body {        /* "About Me" body text */
                 padding: 10px 20px;
             }
+
+            .project_body {
+                width: 100%;
+            }
+
+                /* .project_row {      Holds project labels and project pics
+                    flex-direction: column;
+                } */
+
+                .project_labels {
+                    flex-direction: column;
+                }
+
+                .project_holder {
+                    flex-direction: column;
+                }
+
 
         .connect {
             /* width: 25%; */
@@ -630,6 +647,7 @@ To do (portfolio.html)
                 padding: 10px 20px;
             }
 
+            
         .connect {
             /* width: 25%; */
             width: 100%;
