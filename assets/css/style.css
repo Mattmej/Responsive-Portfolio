@@ -490,6 +490,7 @@ To do (index.html)
         .body_container {   /* Main "About Me" section */
             width: 100%;
             height: auto;
+            margin-top: 20px;
         }
 
             /* .main_header {      "About Me" heading
