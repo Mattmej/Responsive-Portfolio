@@ -322,3 +322,37 @@ input[type = submit]:hover {
     background-color: #325a58;
 }
 
+/* ============================================= */
+
+/* Media queries.
+    Very fussy. Folow format to the letter. */
+
+/* 
+
+To do (index.html)
+1. Make header links on right side of page move towards left
+    as screen size changes
+    
+    a. Typical behavior for > 979px
+    b. Similar behavior for > 767px
+    c. Sit below name for  < 640 px
+
+2. Move sidebar as screen size changes
+
+    a. " " "
+    b. Sit below main body for > 767px
+    c. Same as (b) for < 640px
+
+3. Have text body respond to screen size changes relative to photo
+
+    a. Similar behavior for > 979px
+    b. " " "
+    c. Sit below photo for < 640px
+
+*/
+
+
+/* @media handheld, screen and (max-width: 979px) {
+
+} */
+
