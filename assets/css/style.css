@@ -220,7 +220,7 @@ body {
     width: 100%;
     background-color: #ffffff;
     position: absolute;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     z-index: 1;
     border: 1px solid #cccccc;
 }
@@ -352,7 +352,36 @@ To do (index.html)
 */
 
 
-/* @media handheld, screen and (max-width: 979px) {
+@media handheld, screen and (max-width: 979px) {
 
-} */
+    body {
+        width: 100%;
+    }
+
+
+    .header_container {
+        width: 100%;
+    }
+
+    .top_divider {
+        width: 100%;
+    }
+
+    .header_bar {
+        width: 100%;
+        margin: auto;
+    }
+
+    .button_container {
+        width: 30%;
+        /* float: right;    */
+        /* Makes the button container stay to the right of the page w/o getting cut off */
+        /**/
+
+        position: relative;
+        right: 20%;
+    }
+
+
+}
 
