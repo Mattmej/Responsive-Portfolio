@@ -442,17 +442,29 @@ To do (portfolio.html)
                 width: 100%;
             }
 
-                /* .project_row {      Holds project labels and project pics
-                    flex-direction: column;
-                } */
+                .project_row {     /*  Holds project labels and project pics */
+                    /* flex-direction: column; */
+                    flex-direction: row;
+                }
 
                 .project_labels {
                     flex-direction: column;
+                    height: 81%;
+                    justify-content: space-between;
                 }
 
                 .project_holder {
+                    height: 100%;
                     flex-direction: column;
+                    /* position: relative; */
+                    justify-content: center;
+                    /* top: 40%; */
                 }
+
+                    .project {
+                        width: 100%;
+                        height: auto;
+                    }
 
 
         .connect {
