@@ -97,6 +97,7 @@ To do (portfolio.html)
         justify-content: flex-start;
         /* justify-content: space-between; */
         width: 100%;
+        margin-bottom: 12%;
     }
 
         .body_container {   /* Main "About Me" section */
